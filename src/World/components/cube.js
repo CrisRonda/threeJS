@@ -6,13 +6,14 @@ import {
   SphereBufferGeometry,
   TextureLoader,
 } from "https://unpkg.com/three@0.117.0/build/three.module.js";
-
 function createMaterial() {
   // create a texture loader.
   const textureLoader = new TextureLoader();
 
   // load a texture
-  const texture = textureLoader.load("/assets/textures/t.png");
+  const texture = textureLoader.load(
+    "https://raw.githubusercontent.com/CrisRonda/threeJS/main/assets/textures/t.png"
+  );
   texture.repeat.set = (5, 5);
   // create a "standard" material using
   // the texture we just loaded as a color map
