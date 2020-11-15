@@ -1,0 +1,32 @@
+body {
+  /* remove margins and scroll bars */
+  margin: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  /* style text */
+  text-align: center;
+  font-size: 12px;
+  font-family: Sans-Serif;
+
+  /* color text */
+  color: #444;
+}
+.container {
+  height: 400px;
+  width: 100%;
+}
+#scene-container {
+  margin: 16px auto;
+  /* tell our scene container to take up the full page */
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  width: 90%;
+  height: 100%;
+
+  /*
+    Set the container's background color to the same as the scene's
+    background to prevent flashing on load
+  */
+}
