@@ -3,4 +3,4 @@
 Test TreeJS basics with vanilla JS
 
 # Screenshot
-![Alt Text](./threejs.gif)
+![Alt Text](./assets/threejs.gif)
