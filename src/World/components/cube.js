@@ -12,7 +12,7 @@ function createMaterial() {
   const textureLoader = new TextureLoader();
 
   // load a texture
-  const texture = textureLoader.load("/assets/textures/uv-test-col.png");
+  const texture = textureLoader.load("/assets/textures/t.png");
   texture.repeat.set = (5, 5);
   // create a "standard" material using
   // the texture we just loaded as a color map
